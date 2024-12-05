@@ -1,144 +1,115 @@
-﻿Practical Automation and Data Handling
+Here’s a GitHub-friendly **README.md** file format for your project, using markdown syntax (`#`, `*`, `**`) for proper rendering on GitHub.
+
+---
+
+# **Practical Automation and Data Handling**
+
+### **Objective**
+Complete two tasks:
+1. Build a web scraping tool.
+2. Automate a KPI dashboard for data visualization.
+
+---
+
+## **1. Web Scraping**
+
+### **Features**
+- Automates web scraping using Selenium.
+- Extracts and processes data into CSV files.
+
+### **Requirements**
+- Python
+- Selenium
+- WebDriver (e.g., ChromeDriver)
+
+### **Installation**
+1. Ensure `web_scraper.py` is downloaded from this repository.
+2. Install the required dependencies:
+   ```bash
+   pip install selenium webdriver-manager
+   ```
+3. Run the script:
+   ```bash
+   python web_scraper.py
+   ```
+
+---
+
+## **2. Data Visualization with Plotly**
+
+### **Features**
+- Generates visualizations for KPI analysis.
+- Includes revenue, AOV, ROMS, and revenue distribution insights.
+
+### **Requirements**
+- Python
+- Plotly
+- Pandas
+
+### **Installation**
+1. Download `kpi_dashboard.py` from this repository.
+2. Install the required dependencies:
+   ```bash
+   pip install plotly pandas
+   ```
+3. Run the script:
+   ```bash
+   python kpi_dashboard.py
+   ```
+
+---
+
+## **Data Sources**
+- **Scraped Data**: [Scraped data from Noon.com](https://docs.google.com/spreadsheets/d/1eAJN1HEAf4BFrYAx7BDOtcQ3t5t09Rna7wPDdjBX0uI/edit?usp=sharing)
+
+---
+
+### **Key Insights**
+
+#### **1. Annual Revenue by Category**
+- **Clothing**: Largest revenue contributor, rising from ~320k in 2020 to ~360k in 2023.
+- **Home & Kitchen**: Second largest, increasing from ~270k in 2020 to ~320k in 2023.
+- **Electronics**: Third largest, increasing from ~220k in 2020 to ~270k in 2023.
+- Steady growth in total revenue from ~820.5k in 2020 to ~841.6k in 2023.
+
+#### **2. Average Order Value (AOV) per Category**
+- **Electronics**: Highest AOV, increasing from ~241 in 2020 to ~250 in 2023.
+- **Home & Kitchen**: Second highest, ranging between ~225 and ~235.
+- Slight increase in AOV across all categories, indicating higher customer spending.
+
+#### **3. Return on Marketing Spend (ROMS) per Category**
+- **Home & Kitchen**: Highest ROMS, reaching ~8.5 in 2023.
+- **Sports**: Second highest, increasing to ~8 in 2023.
+- Overall ROMS trend indicates more efficient marketing over time.
+
+#### **4. Revenue Distribution by Category**
+- **Clothing**: Largest revenue contributor, accounting for 20.5% in 2022.
+- **Home & Kitchen**: Second largest, with 20.2% share in 2022.
+- Steady growth across all categories from 2020 to 2023.
+
+---
+
+## **Project Structure**
+
+```
+Practical-Automation-and-Data-Handling/
+│
+├── README.md          # Detailed project description
+├── web_scraper.py     # Web scraping script
+├── kpi_dashboard.py   # Data visualization script
+├── requirements.txt   # List of all dependencies
+└── data/
+    ├── scraped_data.csv  # Example scraped data
+    └── report_data.csv   # Processed data for dashboard
+```
 
-OBJECTIVE:
+---
 
-complete two tasks: building a web scraping tool and automating a KPI dashboard
+## **How to Contribute**
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Submit a pull request with detailed explanations.
 
-__________________________________________________________________________________
+---
 
-1. For Web Scraping:
-
-Features
-* Automates web scraping with Selenium.
-* Extracts and processes data into CSV files.
-
-
-Requirements
-* Python
-* Selenium
-* WebDriver (e.g., ChromeDriver)
-
-Installation
-1. Web_scraper.py is attach in this zip file
-
-2. Install dependencies using pip:
-
-	pip install selenium webdriver-manager
-
-3. Open IDE and run this script
-	python Web_scraper.py
-	
-
-_________________________________________________________________________________
-
-2. Data Visualization with Plotly
-
-Requirements
-   * Python
-   * Plotly
-   * Pandas 
-
-Dependencies
-   * plotly
-   * Pandas
-
-
-Installation
-1. kpi_dashboard.py is attach in this zip file
-
-2. Install dependencies using pip:
-
-	pip install plotly pandas  
-
-3. Open IDE and run this script
-	python kpi_dashboard.py
-
-
-this is the scraped data from noon.com:
-https://docs.google.com/spreadsheets/d/1eAJN1HEAf4BFrYAx7BDOtcQ3t5t09Rna7wPDdjBX0uI/edit?usp=sharing
-
-this is the genrated report from the provided sales dta
-
-
-
-
-
-
-1. Annual Revenue by category
-This graph depicts the annual revenue for different product categories from 2020 to 2023. The key insights are:
-The Clothing category is the largest revenue contributor, with revenue increasing from around 320k in 2020 to around 360k in 2023.
-The Home & Kitchen category is the second largest revenue contributor, with revenue increasing from around 270k in 2020 to around 320k in 2023.
-The Electronics category is the third largest revenue contributor, with revenue increasing from around 220k in 2020 to around 270k in 2023.
-The Beauty and Sports categories have relatively lower annual revenues, with Beauty around 150k-180k and Sports around 140k-180k over the years.
-The overall annual revenue trend shows steady growth across all categories, with the total revenue increasing from around 820.5k in 2020 to around 841.6k in 2023.
-
-
-
-
-
-
-
-
-
-
-
-2. Average Order Value (AOV) per Category 
-This graph illustrates the Average Order Value (AOV) for different product categories over the years 2020 to 2023. The key insights are:
-The Electronics category has the highest AOV, starting at around 241 in 2020 and increasing to around 250 in 2023.
-The Home & Kitchen category has the second highest AOV, ranging from around 225 to 235 over the years.
-The Beauty and Sports categories have relatively lower AOVs, with Beauty around 190-200 and Sports around 170-180.
-The Clothing category has the lowest AOV, starting at around 165 in 2020 and increasing to around 180 in 2023.
-The overall AOV trend shows a slight increase across all categories, indicating that customers are spending more on average per order.
-
-
-
-
-
-
-3. Return on Marketing Spend (ROMS) per Category
- This graph depicts the Return on Marketing Spend (ROMS) for different product categories over the years 2020 to 2023. The key insights are:
-Home & Kitchen category has the highest ROMS, reaching around 8.5 in 2023. This indicates that for every $1 spent on marketing, this category generates $8.5 in revenue.
-Sports category has the second highest ROMS, starting at around 7.5 in 2020 and increasing to around 8 in 2023.
-Beauty and Electronics categories have relatively lower ROMS, ranging from 6.5 to 7.5 over the years.
-Clothing category has the lowest ROMS, starting at around 6 in 2020 and increasing to around 7 in 2023.
-The overall ROMS trend shows an increase across all categories, indicating that the marketing efforts are becoming more efficient over time.
-
-
-
-
-
-
-
-
-
-
-
-
-
-4. Revenue Distribution by Category 
-This graph shows the revenue distribution across different product categories over the years 2020 to 2023. The key insights are:
-Clothing is the largest revenue contributor, accounting for 20.5% of the total revenue in 2022. This category is consistently the top revenue generator across the years.
-Home & Kitchen is the second largest revenue contributor, making up 20.2% of the total revenue in 2022. This category has seen a steady increase in revenue share over the years.
-Electronics is the third largest revenue category, contributing 18.7% to the total revenue in 2022. Its revenue share has remained relatively stable over the years.
-Beauty and Sports are the smaller revenue contributors, making up 20.3% and 20.3% respectively in 2022.
-The overall revenue trend shows steady growth across all categories, with the total revenue increasing from 820.5k in 2020 to 841.6k in 2023..
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+You can now upload this formatted **README.md** file to GitHub, and it will display properly with headings, bullet points, and code blocks. Let me know if you need assistance with the uploading process!
