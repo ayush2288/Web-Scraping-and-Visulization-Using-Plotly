@@ -1,7 +1,3 @@
-Here’s a GitHub-friendly **README.md** file format for your project, using markdown syntax (`#`, `*`, `**`) for proper rendering on GitHub.
-
----
-
 # **Practical Automation and Data Handling**
 
 ### **Objective**
@@ -32,6 +28,8 @@ Complete two tasks:
    ```bash
    python web_scraper.py
    ```
+## **Data Sources**
+- **Scraped Data**: [Scraped data from Noon.com](https://docs.google.com/spreadsheets/d/1eAJN1HEAf4BFrYAx7BDOtcQ3t5t09Rna7wPDdjBX0uI/edit?usp=sharing)
 
 ---
 
@@ -47,7 +45,7 @@ Complete two tasks:
 - Pandas
 
 ### **Installation**
-1. Download `kpi_dashboard.py` from this repository.
+1. Download `kpi_dashboard.py` and sales_data.csv from this repository.
 2. Install the required dependencies:
    ```bash
    pip install plotly pandas
@@ -59,10 +57,7 @@ Complete two tasks:
 
 ---
 
-## **Data Sources**
-- **Scraped Data**: [Scraped data from Noon.com](https://docs.google.com/spreadsheets/d/1eAJN1HEAf4BFrYAx7BDOtcQ3t5t09Rna7wPDdjBX0uI/edit?usp=sharing)
 
----
 
 ### **Key Insights**
 
