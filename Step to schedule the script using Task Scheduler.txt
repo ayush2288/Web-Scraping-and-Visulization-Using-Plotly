@@ -1,0 +1,54 @@
+﻿Description of how to schedule the script using Task Scheduler?
+________________
+
+
+1. Prepare Your Python Script
+Ensure your Python script runs correctly when executed manually:
+python your_script.py
+
+
+________________
+
+
+2. Find Your Python Executable Path
+Locate your Python executable:
+Open Command Prompt and type:
+where python
+* This will show the full path to your Python executable (e.g., C:\Python311\python.exe).
+________________
+
+
+3. Open Task Scheduler
+1. Press Win + S and search for Task Scheduler.
+2. Click Open to launch it.
+________________
+
+
+4. Create a New Task
+1. In the right-hand pane, click Create Basic Task...
+2. Give your task a Name and Description, then click Next.
+________________
+
+
+5. Set the Trigger
+1. Choose how often you want the task to run (e.g., Daily, Weekly, or One Time).
+2. Set the specific time and date, then click Next.
+________________
+
+
+6. Set the Action
+1. Select Start a Program, then click Next.
+2. In the Program/script field, enter the path to your Python executable (from Step 2).
+In the Add arguments field, enter the full path to your Python script:
+"C:\path\to\your_script.py"
+________________
+
+
+7. Complete and Review
+1. Click Finish to create the task.
+2. Verify the task appears in the Task Scheduler Library.
+________________
+
+
+8. Test the Task
+1. Right-click the task and select Run to ensure it executes correctly.
